@@ -2,11 +2,11 @@ import time
 import contract_abi ## Application Binary Interface (ABI)
 from web3 import Web3, HTTPProvider
 
-contract_address     = '0x6F143B784D474D3e5F87E4C3543d3a0370CfDd78'
-wallet_private_key   = '6ED5F3804A8386E05425A43A1F9A1E5E240B612297A64FD6845E520CBFA5B976'
-wallet_address       = '0x3fEA86d9e8D36C5f0df137C059a17970Dc4054B9'
+contract_address     = ''
+wallet_private_key   = ''
+wallet_address       = ''
 
-w3 = Web3(HTTPProvider('https://ropsten.infura.io/v3/6ca76c853ef24a7bbba88d95385046f2'))
+w3 = Web3(HTTPProvider(''))
 
 w3.eth.enable_unaudited_features()
 
